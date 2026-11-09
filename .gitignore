@@ -1,0 +1,4 @@
+.env
+tmp/
+playwright/.auth/
+node_modules/

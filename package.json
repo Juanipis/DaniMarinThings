@@ -1,0 +1,20 @@
+{
+  "name": "danimarin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docanalyzer:login": "node scripts/doc-analyzer-login.js",
+    "docanalyzer:login:force": "node scripts/doc-analyzer-login.js --force",
+    "docanalyzer:session:check": "node scripts/doc-analyzer-login.js --check",
+    "docanalyzer:chats:export": "node scripts/doc-analyzer-export-chats.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
